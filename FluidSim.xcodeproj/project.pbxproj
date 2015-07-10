@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C6546C117F22F0A00432F5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6546C017F22F0A00432F5A /* UIKit.framework */; };
+		4C6546C317F22F0A00432F5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6546C217F22F0A00432F5A /* Foundation.framework */; };
+		4C6546C517F22F0A00432F5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6546C417F22F0A00432F5A /* CoreGraphics.framework */; };
+		4C6546CB17F22F0A00432F5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6546C917F22F0A00432F5A /* InfoPlist.strings */; };
+		4C6546CD17F22F0A00432F5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6546CC17F22F0A00432F5A /* main.m */; };
+		4C6546D117F22F0A00432F5A /* FluidAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6546D017F22F0A00432F5A /* FluidAppDelegate.m */; };
+		4C6546D317F22F0A00432F5A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6546D217F22F0A00432F5A /* Default.png */; };
+		4C6546D517F22F0A00432F5A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6546D417F22F0A00432F5A /* Default@2x.png */; };
+		4C6546D717F22F0A00432F5A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6546D617F22F0A00432F5A /* Default-568h@2x.png */; };
+		4C6546DF17F246A600432F5A /* FluidModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6546DE17F246A600432F5A /* FluidModel.m */; };
+		4C6546E217F2A4EF00432F5A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6546E017F2A4E500432F5A /* GLKit.framework */; };
+		4C6546E517F2A55F00432F5A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6546E317F2A55600432F5A /* QuartzCore.framework */; };
+		4C6546E817F2A57100432F5A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6546E617F2A56900432F5A /* OpenGLES.framework */; };
+		4C6546EB17F2ABAE00432F5A /* FluidGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6546EA17F2ABAE00432F5A /* FluidGLViewController.m */; };
+		4C6546ED17F4DA6300432F5A /* Fluid.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4C6546EC17F4DA6300432F5A /* Fluid.fsh */; };
+		4C6546EF17F4DA6C00432F5A /* Fluid.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4C6546EE17F4DA6C00432F5A /* Fluid.vsh */; };
+		4C6546F617F5279400432F5A /* FluidGLView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6546F517F5279400432F5A /* FluidGLView.xib */; };
+		4C6718A618077CC000A34E39 /* FluidMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6718A518077CC000A34E39 /* FluidMenuViewController.m */; };
+		4C6718A818077D1200A34E39 /* FluidMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6718A718077D1200A34E39 /* FluidMenuView.xib */; };
+		4C6718AB180784B900A34E39 /* Fluid.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6718AA180784B900A34E39 /* Fluid.m */; };
+		4C6718AE1807A7FB00A34E39 /* FluidTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6718AD1807A7FB00A34E39 /* FluidTabBarController.m */; };
+		4C6718B01807A82500A34E39 /* FluidTabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C6718AF1807A82500A34E39 /* FluidTabBarView.xib */; };
+		4CA8C8A1180740C800FE6D8F /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA8C8A0180740C800FE6D8F /* MainMenuViewController.m */; };
+		4CA8C8A3180740E000FE6D8F /* MainMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CA8C8A2180740E000FE6D8F /* MainMenuView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C6546BD17F22F0A00432F5A /* FluidSim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidSim.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C6546C017F22F0A00432F5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C6546C217F22F0A00432F5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C6546C417F22F0A00432F5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C6546C817F22F0A00432F5A /* FluidSim-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FluidSim-Info.plist"; sourceTree = "<group>"; };
+		4C6546CA17F22F0A00432F5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C6546CC17F22F0A00432F5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C6546CE17F22F0A00432F5A /* FluidSim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FluidSim-Prefix.pch"; sourceTree = "<group>"; };
+		4C6546CF17F22F0A00432F5A /* FluidAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FluidAppDelegate.h; sourceTree = "<group>"; };
+		4C6546D017F22F0A00432F5A /* FluidAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FluidAppDelegate.m; sourceTree = "<group>"; };
+		4C6546D217F22F0A00432F5A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4C6546D417F22F0A00432F5A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4C6546D617F22F0A00432F5A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4C6546DD17F246A600432F5A /* FluidModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidModel.h; sourceTree = "<group>"; };
+		4C6546DE17F246A600432F5A /* FluidModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidModel.m; sourceTree = "<group>"; };
+		4C6546E017F2A4E500432F5A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4C6546E317F2A55600432F5A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4C6546E617F2A56900432F5A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4C6546E917F2ABAE00432F5A /* FluidGLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidGLViewController.h; sourceTree = "<group>"; };
+		4C6546EA17F2ABAE00432F5A /* FluidGLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidGLViewController.m; sourceTree = "<group>"; };
+		4C6546EC17F4DA6300432F5A /* Fluid.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Fluid.fsh; sourceTree = "<group>"; };
+		4C6546EE17F4DA6C00432F5A /* Fluid.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Fluid.vsh; sourceTree = "<group>"; };
+		4C6546F517F5279400432F5A /* FluidGLView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FluidGLView.xib; sourceTree = "<group>"; };
+		4C6718A3180773F500A34E39 /* Water_Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Water_Icon.png; sourceTree = "<group>"; };
+		4C6718A418077CC000A34E39 /* FluidMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidMenuViewController.h; sourceTree = "<group>"; };
+		4C6718A518077CC000A34E39 /* FluidMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidMenuViewController.m; sourceTree = "<group>"; };
+		4C6718A718077D1200A34E39 /* FluidMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FluidMenuView.xib; sourceTree = "<group>"; };
+		4C6718A9180784B900A34E39 /* Fluid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fluid.h; sourceTree = "<group>"; };
+		4C6718AA180784B900A34E39 /* Fluid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fluid.m; sourceTree = "<group>"; };
+		4C6718AC1807A7FB00A34E39 /* FluidTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FluidTabBarController.h; sourceTree = "<group>"; };
+		4C6718AD1807A7FB00A34E39 /* FluidTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FluidTabBarController.m; sourceTree = "<group>"; };
+		4C6718AF1807A82500A34E39 /* FluidTabBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FluidTabBarView.xib; sourceTree = "<group>"; };
+		4CA8C89F180740C800FE6D8F /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
+		4CA8C8A0180740C800FE6D8F /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
+		4CA8C8A2180740E000FE6D8F /* MainMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenuView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6546BA17F22F0A00432F5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6546E817F2A57100432F5A /* OpenGLES.framework in Frameworks */,
+				4C6546E517F2A55F00432F5A /* QuartzCore.framework in Frameworks */,
+				4C6546E217F2A4EF00432F5A /* GLKit.framework in Frameworks */,
+				4C6546C117F22F0A00432F5A /* UIKit.framework in Frameworks */,
+				4C6546C317F22F0A00432F5A /* Foundation.framework in Frameworks */,
+				4C6546C517F22F0A00432F5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C6546B417F22F0A00432F5A = {
+			isa = PBXGroup;
+			children = (
+				4C6718A3180773F500A34E39 /* Water_Icon.png */,
+				4C6546C617F22F0A00432F5A /* FluidSim */,
+				4C6546BF17F22F0A00432F5A /* Frameworks */,
+				4C6546BE17F22F0A00432F5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C6546BE17F22F0A00432F5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6546BD17F22F0A00432F5A /* FluidSim.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C6546BF17F22F0A00432F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6546E617F2A56900432F5A /* OpenGLES.framework */,
+				4C6546E317F2A55600432F5A /* QuartzCore.framework */,
+				4C6546E017F2A4E500432F5A /* GLKit.framework */,
+				4C6546C017F22F0A00432F5A /* UIKit.framework */,
+				4C6546C217F22F0A00432F5A /* Foundation.framework */,
+				4C6546C417F22F0A00432F5A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C6546C617F22F0A00432F5A /* FluidSim */ = {
+			isa = PBXGroup;
+			children = (
+				4C6546CF17F22F0A00432F5A /* FluidAppDelegate.h */,
+				4C6546D017F22F0A00432F5A /* FluidAppDelegate.m */,
+				4C6546DD17F246A600432F5A /* FluidModel.h */,
+				4C6546DE17F246A600432F5A /* FluidModel.m */,
+				4C6718A9180784B900A34E39 /* Fluid.h */,
+				4C6718AA180784B900A34E39 /* Fluid.m */,
+				4C6546E917F2ABAE00432F5A /* FluidGLViewController.h */,
+				4C6546EA17F2ABAE00432F5A /* FluidGLViewController.m */,
+				4C6718A418077CC000A34E39 /* FluidMenuViewController.h */,
+				4C6718A518077CC000A34E39 /* FluidMenuViewController.m */,
+				4C6718AC1807A7FB00A34E39 /* FluidTabBarController.h */,
+				4C6718AD1807A7FB00A34E39 /* FluidTabBarController.m */,
+				4CA8C89F180740C800FE6D8F /* MainMenuViewController.h */,
+				4CA8C8A0180740C800FE6D8F /* MainMenuViewController.m */,
+				4C6546F517F5279400432F5A /* FluidGLView.xib */,
+				4C6718A718077D1200A34E39 /* FluidMenuView.xib */,
+				4C6718AF1807A82500A34E39 /* FluidTabBarView.xib */,
+				4C6546EE17F4DA6C00432F5A /* Fluid.vsh */,
+				4C6546EC17F4DA6300432F5A /* Fluid.fsh */,
+				4CA8C8A2180740E000FE6D8F /* MainMenuView.xib */,
+				4C6546C717F22F0A00432F5A /* Supporting Files */,
+			);
+			path = FluidSim;
+			sourceTree = "<group>";
+		};
+		4C6546C717F22F0A00432F5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C6546C817F22F0A00432F5A /* FluidSim-Info.plist */,
+				4C6546C917F22F0A00432F5A /* InfoPlist.strings */,
+				4C6546CC17F22F0A00432F5A /* main.m */,
+				4C6546CE17F22F0A00432F5A /* FluidSim-Prefix.pch */,
+				4C6546D217F22F0A00432F5A /* Default.png */,
+				4C6546D417F22F0A00432F5A /* Default@2x.png */,
+				4C6546D617F22F0A00432F5A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C6546BC17F22F0A00432F5A /* FluidSim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6546DA17F22F0A00432F5A /* Build configuration list for PBXNativeTarget "FluidSim" */;
+			buildPhases = (
+				4C6546B917F22F0A00432F5A /* Sources */,
+				4C6546BA17F22F0A00432F5A /* Frameworks */,
+				4C6546BB17F22F0A00432F5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluidSim;
+			productName = FluidSim;
+			productReference = 4C6546BD17F22F0A00432F5A /* FluidSim.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C6546B517F22F0A00432F5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Fluid;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = self;
+			};
+			buildConfigurationList = 4C6546B817F22F0A00432F5A /* Build configuration list for PBXProject "FluidSim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C6546B417F22F0A00432F5A;
+			productRefGroup = 4C6546BE17F22F0A00432F5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C6546BC17F22F0A00432F5A /* FluidSim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6546BB17F22F0A00432F5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6718A818077D1200A34E39 /* FluidMenuView.xib in Resources */,
+				4C6546CB17F22F0A00432F5A /* InfoPlist.strings in Resources */,
+				4C6546D317F22F0A00432F5A /* Default.png in Resources */,
+				4C6718B01807A82500A34E39 /* FluidTabBarView.xib in Resources */,
+				4C6546D517F22F0A00432F5A /* Default@2x.png in Resources */,
+				4C6546D717F22F0A00432F5A /* Default-568h@2x.png in Resources */,
+				4C6546F617F5279400432F5A /* FluidGLView.xib in Resources */,
+				4C6546ED17F4DA6300432F5A /* Fluid.fsh in Resources */,
+				4C6546EF17F4DA6C00432F5A /* Fluid.vsh in Resources */,
+				4CA8C8A3180740E000FE6D8F /* MainMenuView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C6546B917F22F0A00432F5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C6546CD17F22F0A00432F5A /* main.m in Sources */,
+				4C6546D117F22F0A00432F5A /* FluidAppDelegate.m in Sources */,
+				4C6546DF17F246A600432F5A /* FluidModel.m in Sources */,
+				4C6546EB17F2ABAE00432F5A /* FluidGLViewController.m in Sources */,
+				4C6718A618077CC000A34E39 /* FluidMenuViewController.m in Sources */,
+				4CA8C8A1180740C800FE6D8F /* MainMenuViewController.m in Sources */,
+				4C6718AE1807A7FB00A34E39 /* FluidTabBarController.m in Sources */,
+				4C6718AB180784B900A34E39 /* Fluid.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C6546C917F22F0A00432F5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C6546CA17F22F0A00432F5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C6546D817F22F0A00432F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C6546D917F22F0A00432F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6546DB17F22F0A00432F5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FluidSim/FluidSim-Prefix.pch";
+				INFOPLIST_FILE = "FluidSim/FluidSim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C6546DC17F22F0A00432F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FluidSim/FluidSim-Prefix.pch";
+				INFOPLIST_FILE = "FluidSim/FluidSim-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C6546B817F22F0A00432F5A /* Build configuration list for PBXProject "FluidSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6546D817F22F0A00432F5A /* Debug */,
+				4C6546D917F22F0A00432F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6546DA17F22F0A00432F5A /* Build configuration list for PBXNativeTarget "FluidSim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6546DB17F22F0A00432F5A /* Debug */,
+				4C6546DC17F22F0A00432F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C6546B517F22F0A00432F5A /* Project object */;
+}
